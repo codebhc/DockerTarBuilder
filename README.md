@@ -16,9 +16,7 @@ https://www.bilibili.com/video/BV1EZ421M7mL
 ```
 retention-days: 1  # 将保留天数设置为 1 天 最多可设置90天
 ```
-将[arm32.yml]([https://markdown.com.cn](https://github.com/codebhc/DockerTarBuilder/blob/main/.github/workflows/arm32.yml))，
-[arm64.yml]([https://markdown.com.cn](https://github.com/codebhc/DockerTarBuilder/blob/main/.github/workflows/arm64.yml))，
-[x86-64.yml]([https://markdown.com.cn](https://github.com/codebhc/DockerTarBuilder/blob/main/.github/workflows/x86-64.yml))中的数字改为想要镜像在github服务器保存的时间，最多可设置90天
+将arm32.yml，arm64.yml,x86-64.yml文件中的上面这行代码中的数字改为想要镜像在github服务器保存的时间，最多可设置90天
 
 ## 在哪里可以搜索或查询docker镜像的详细信息
 ### [查询镜像的详细信息 点击这里直达](https://docker.fxxk.dedyn.io/)
